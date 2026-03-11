@@ -1,0 +1,495 @@
+{
+  "Meals": {
+    "CBO": {
+      "name": "CBO",
+      "price": 5.90,
+      "expectedPrep": 6,
+      "recipe": {
+        "Pao_Bacon": 1,
+        "Frango_Panado": 1,
+        "Queijo_Bacon": 1,
+        "Bacon": 2,
+        "Cebola_Frita": 1,
+        "Alface": 1,
+        "Molho_CBO": 1
+      }
+    },
+    "BIG_MAC": {
+      "name": "Big Mac",
+      "price": 4.95,
+      "expectedPrep": 5,
+      "recipe": {
+        "Pao_Triplo": 1,
+        "Carne_Vaca": 2,
+        "Queijo_Cheddar": 1,
+        "Alface": 1,
+        "Picles": 2,
+        "Cebola": 1,
+        "Molho_BigMac": 1
+      }
+    },
+    "MC_CHICKEN": {
+      "name": "McChicken",
+      "price": 4.20,
+      "expectedPrep": 4,
+      "recipe": {
+        "Pao_Sesamo": 1,
+        "Frango_Panado": 1,
+        "Alface": 1,
+        "Maionese": 1
+      }
+    },
+    "ROYAL_CHEESE": {
+      "name": "Royal Cheese",
+      "price": 4.80,
+      "expectedPrep": 5,
+      "recipe": {
+        "Pao_Sesamo": 1,
+        "Carne_Quarter": 1,
+        "Queijo_Cheddar": 2,
+        "Picles": 2,
+        "Cebola": 1,
+        "Ketchup": 1,
+        "Mostarda": 1
+      }
+    },
+    "MCNUGGETS_10": {
+      "name": "McNuggets 10un",
+      "price": 4.50,
+      "expectedPrep": 3,
+      "recipe": {
+        "Nuggets": 10,
+        "Molho_Barbecue": 1
+      }
+    },
+    "DOUBLE_CHEESEBURGER": {
+      "name": "Double Cheeseburger",
+      "price": 3.80,
+      "expectedPrep": 4,
+      "recipe": {
+        "Pao_Sesamo": 1,
+        "Carne_Vaca": 2,
+        "Queijo_Cheddar": 2,
+        "Cebola": 1,
+        "Picles": 1,
+        "Ketchup": 1,
+        "Mostarda": 1
+      }
+    },
+    "MROYAL_BACON": {
+      "name": "McRoyal® Bacon",
+      "price": 5.50,
+      "expectedPrep": 6,
+      "recipe": {
+        "Pao_Sesamo": 1,
+        "Carne_Vaca": 1,
+        "Bacon": 2,
+        "Queijo_Cheddar": 1,
+        "Alface": 1,
+        "Molho_McBacon": 1
+      }
+    },
+    "BIG_TASTY_SINGLE": {
+      "name": "Big Tasty® Single",
+      "price": 6.50,
+      "expectedPrep": 7,
+      "recipe": {
+        "Pao_Sespecial": 1,
+        "Carne_Vaca": 1,
+        "Queijo_Cheddar": 2,
+        "Bacon": 1,
+        "Alface": 1,
+        "Tomate": 1,
+        "Cebola": 1,
+        "Molho_Tasty": 1
+      }
+    },
+    "MCVEGGIE": {
+      "name": "McVeggie",
+      "price": 4.90,
+      "expectedPrep": 5,
+      "recipe": {
+        "Pao_Sesamo": 1,
+        "Hamburger_Vegetariano": 1,
+        "Alface": 1,
+        "Tomate": 1,
+        "Maionese_Vegetariana": 1
+      }
+    }
+  },
+  "Sides": {
+    "BATATA_M": {
+      "name": "Batata Frita Média",
+      "price": 2.00,
+      "expectedPrep": 3,
+      "recipe": {
+        "Batatas": 1,
+        "Sal": 1
+      }
+    },
+    "BATATA_G": {
+      "name": "Batata Frita Grande",
+      "price": 2.50,
+      "expectedPrep": 3,
+      "recipe": {
+        "Batatas": 1.5,
+        "Sal": 1
+      }
+    },
+    "SOPA_FEIJAO": {
+      "name": "Sopa de Feijão Verde (200 ml)",
+      "price": 1.80,
+      "expectedPrep": 2,
+      "recipe": {
+        "Feijao_Verde": 1,
+        "Agua": 0.5
+      }
+    },
+    "SOPA_CENOURA": {
+      "name": "Sopa Creme de Cenoura (200 ml)",
+      "price": 1.80,
+      "expectedPrep": 2,
+      "recipe": {
+        "Cenoura": 1,
+        "Creme": 0.5
+      }
+    },
+    "SALADA_MISTA": {
+      "name": "Salada Mista",
+      "price": 2.90,
+      "expectedPrep": 1,
+      "recipe": {
+        "Alface": 1,
+        "Tomate": 1,
+        "Cenoura_Ralada": 0.5,
+        "Molho_Salada": 1
+      }
+    }
+  },
+  "Drinks": {
+    "COLA_M": {
+      "name": "Coca-Cola Média",
+      "price": 1.50,
+      "expectedPrep": 1,
+      "recipe": {
+        "Xarope_Cola": 1,
+        "Agua_Gaseificada": 1,
+        "Gelo": 1
+      }
+    },
+    "COLA_Z_ZERO_M": {
+      "name": "Coca-Cola Zero Média",
+      "price": 1.50,
+      "expectedPrep": 1,
+      "recipe": {
+        "Xarope_Cola_Zero": 1,
+        "Agua_Gaseificada": 1,
+        "Gelo": 1
+      }
+    },
+    "FANTA_L_ZERO_M": {
+      "name": "Fanta Laranja Zero Média",
+      "price": 1.50,
+      "expectedPrep": 1,
+      "recipe": {
+        "Xarope_Fanta": 1,
+        "Agua_Gaseificada": 1,
+        "Gelo": 1
+      }
+    },
+    "AGUA": {
+      "name": "Água 50cl",
+      "price": 1.20,
+      "expectedPrep": 0,
+      "recipe": {
+        "Garrafa_Agua": 1
+      }
+    },
+    "SUMO_LARANJA": {
+      "name": "Sumo Laranja Natural",
+      "price": 2.20,
+      "expectedPrep": 2,
+      "recipe": {
+        "Laranjas": 3
+      }
+    }
+  },
+    "Menus": {
+    "MENU_CBO_COLA_M": {
+      "name": "Menu CBO + Cola Média",
+      "price": 7.21,
+      "expectedPrep": 6,
+      "recipe": { "CBO": 1, "COLA_M": 1 }
+    },
+    "MENU_CBO_COLA_Z_ZERO_M": {
+      "name": "Menu CBO + Coca-Cola Zero Média",
+      "price": 7.21,
+      "expectedPrep": 6,
+      "recipe": { "CBO": 1, "COLA_Z_ZERO_M": 1 }
+    },
+    "MENU_CBO_FANTA_L_ZERO_M": {
+      "name": "Menu CBO + Fanta Zero Média",
+      "price": 7.21,
+      "expectedPrep": 6,
+      "recipe": { "CBO": 1, "FANTA_L_ZERO_M": 1 }
+    },
+    "MENU_CBO_AGUA": {
+      "name": "Menu CBO + Água",
+      "price": 6.64,
+      "expectedPrep": 6,
+      "recipe": { "CBO": 1, "AGUA": 1 }
+    },
+    "MENU_CBO_SUMO_LARANJA": {
+      "name": "Menu CBO + Sumo de Laranja",
+      "price": 7.60,
+      "expectedPrep": 6,
+      "recipe": { "CBO": 1, "SUMO_LARANJA": 1 }
+    },
+
+    "MENU_BIG_MAC_COLA_M": {
+      "name": "Menu Big Mac + Cola Média",
+      "price": 6.13,
+      "expectedPrep": 5,
+      "recipe": { "BIG_MAC": 1, "COLA_M": 1 }
+    },
+    "MENU_BIG_MAC_COLA_Z_ZERO_M": {
+      "name": "Menu Big Mac + Coca-Cola Zero Média",
+      "price": 6.13,
+      "expectedPrep": 5,
+      "recipe": { "BIG_MAC": 1, "COLA_Z_ZERO_M": 1 }
+    },
+    "MENU_BIG_MAC_FANTA_L_ZERO_M": {
+      "name": "Menu Big Mac + Fanta Zero Média",
+      "price": 6.13,
+      "expectedPrep": 5,
+      "recipe": { "BIG_MAC": 1, "FANTA_L_ZERO_M": 1 }
+    },
+    "MENU_BIG_MAC_AGUA": {
+      "name": "Menu Big Mac + Água",
+      "price": 5.66,
+      "expectedPrep": 5,
+      "recipe": { "BIG_MAC": 1, "AGUA": 1 }
+    },
+    "MENU_BIG_MAC_SUMO_LARANJA": {
+      "name": "Menu Big Mac + Sumo de Laranja",
+      "price": 6.78,
+      "expectedPrep": 5,
+      "recipe": { "BIG_MAC": 1, "SUMO_LARANJA": 1 }
+    },
+
+    "MENU_MC_CHICKEN_COLA_M": {
+      "name": "Menu McChicken + Cola Média",
+      "price": 5.41,
+      "expectedPrep": 4,
+      "recipe": { "MC_CHICKEN": 1, "COLA_M": 1 }
+    },
+    "MENU_MC_CHICKEN_COLA_Z_ZERO_M": {
+      "name": "Menu McChicken + Coca-Cola Zero Média",
+      "price": 5.41,
+      "expectedPrep": 4,
+      "recipe": { "MC_CHICKEN": 1, "COLA_Z_ZERO_M": 1 }
+    },
+    "MENU_MC_CHICKEN_FANTA_L_ZERO_M": {
+      "name": "Menu McChicken + Fanta Zero Média",
+      "price": 5.41,
+      "expectedPrep": 4,
+      "recipe": { "MC_CHICKEN": 1, "FANTA_L_ZERO_M": 1 }
+    },
+    "MENU_MC_CHICKEN_AGUA": {
+      "name": "Menu McChicken + Água",
+      "price": 4.94,
+      "expectedPrep": 4,
+      "recipe": { "MC_CHICKEN": 1, "AGUA": 1 }
+    },
+    "MENU_MC_CHICKEN_SUMO_LARANJA": {
+      "name": "Menu McChicken + Sumo de Laranja",
+      "price": 6.06,
+      "expectedPrep": 4,
+      "recipe": { "MC_CHICKEN": 1, "SUMO_LARANJA": 1 }
+    },
+
+    "MENU_ROYAL_CHEESE_COLA_M": {
+      "name": "Menu Royal Cheese + Cola Média",
+      "price": 6.27,
+      "expectedPrep": 5,
+      "recipe": { "ROYAL_CHEESE": 1, "COLA_M": 1 }
+    },
+    "MENU_ROYAL_CHEESE_COLA_Z_ZERO_M": {
+      "name": "Menu Royal Cheese + Coca-Cola Zero Média",
+      "price": 6.27,
+      "expectedPrep": 5,
+      "recipe": { "ROYAL_CHEESE": 1, "COLA_Z_ZERO_M": 1 }
+    },
+    "MENU_ROYAL_CHEESE_FANTA_L_ZERO_M": {
+      "name": "Menu Royal Cheese + Fanta Zero Média",
+      "price": 6.27,
+      "expectedPrep": 5,
+      "recipe": { "ROYAL_CHEESE": 1, "FANTA_L_ZERO_M": 1 }
+    },
+    "MENU_ROYAL_CHEESE_AGUA": {
+      "name": "Menu Royal Cheese + Água",
+      "price": 5.80,
+      "expectedPrep": 5,
+      "recipe": { "ROYAL_CHEESE": 1, "AGUA": 1 }
+    },
+    "MENU_ROYAL_CHEESE_SUMO_LARANJA": {
+      "name": "Menu Royal Cheese + Sumo de Laranja",
+      "price": 6.92,
+      "expectedPrep": 5,
+      "recipe": { "ROYAL_CHEESE": 1, "SUMO_LARANJA": 1 }
+    },
+    "MENU_MCNUGGETS_10_COLA_M": { 
+      "name": "Menu McNuggets 10un + Cola Média",
+      "price": 5.23,
+      "expectedPrep": 3,
+      "recipe": { "MCNUGGETS_10": 1, "COLA_M": 1 }
+    },
+    "MENU_MCNUGGETS_10_COLA_Z_ZERO_M": {
+      "name": "Menu McNuggets 10un + Coca-Cola Zero Média",
+      "price": 5.23,
+      "expectedPrep": 3,
+      "recipe": { "MCNUGGETS_10": 1, "COLA_Z_ZERO_M": 1 }
+    },
+    "MENU_MCNUGGETS_10_FANTA_L_ZERO_M": {
+      "name": "Menu McNuggets 10un + Fanta Zero Média",
+      "price": 5.23,
+      "expectedPrep": 3,
+      "recipe": { "MCNUGGETS_10": 1, "FANTA_L_ZERO_M": 1 }
+    },
+    "MENU_MCNUGGETS_10_AGUA": {
+      "name": "Menu McNuggets 10un + Água",
+      "price": 4.75,
+      "expectedPrep": 3,
+      "recipe": { "MCNUGGETS_10": 1, "AGUA": 1 }
+    },
+    "MENU_MCNUGGETS_10_SUMO_LARANJA": {
+      "name": "Menu McNuggets 10un + Sumo de Laranja",
+      "price": 5.88,
+      "expectedPrep": 3,
+      "recipe": { "MCNUGGETS_10": 1, "SUMO_LARANJA": 1 }
+    },
+
+    "MENU_DOUBLE_CHEESEBURGER_COLA_M": {
+      "name": "Menu Double Cheeseburger + Cola Média",
+      "price": 5.02,
+      "expectedPrep": 4,
+      "recipe": { "DOUBLE_CHEESEBURGER": 1, "COLA_M": 1 }
+    },
+    "MENU_DOUBLE_CHEESEBURGER_COLA_Z_ZERO_M": {
+      "name": "Menu Double Cheeseburger + Coca-Cola Zero Média",
+      "price": 5.02,
+      "expectedPrep": 4,
+      "recipe": { "DOUBLE_CHEESEBURGER": 1, "COLA_Z_ZERO_M": 1 }
+    },
+    "MENU_DOUBLE_CHEESEBURGER_FANTA_L_ZERO_M": {
+      "name": "Menu Double Cheeseburger + Fanta Zero Média",
+      "price": 5.02,
+      "expectedPrep": 4,
+      "recipe": { "DOUBLE_CHEESEBURGER": 1, "FANTA_L_ZERO_M": 1 }
+    },
+    "MENU_DOUBLE_CHEESEBURGER_AGUA": {
+      "name": "Menu Double Cheeseburger + Água",
+      "price": 4.55,
+      "expectedPrep": 4,
+      "recipe": { "DOUBLE_CHEESEBURGER": 1, "AGUA": 1 }
+    },
+    "MENU_DOUBLE_CHEESEBURGER_SUMO_LARANJA": {
+      "name": "Menu Double Cheeseburger + Sumo de Laranja",
+      "price": 5.68,
+      "expectedPrep": 4,
+      "recipe": { "DOUBLE_CHEESEBURGER": 1, "SUMO_LARANJA": 1 }
+    },
+
+    "MENU_MROYAL_BACON_COLA_M": {
+      "name": "Menu McRoyal Bacon + Cola Média",
+      "price": 6.65,
+      "expectedPrep": 6,
+      "recipe": { "MROYAL_BACON": 1, "COLA_M": 1 }
+    },
+    "MENU_MROYAL_BACON_COLA_Z_ZERO_M": {
+      "name": "Menu McRoyal Bacon + Coca-Cola Zero Média",
+      "price": 6.65,
+      "expectedPrep": 6,
+      "recipe": { "MROYAL_BACON": 1, "COLA_Z_ZERO_M": 1 }
+    },
+    "MENU_MROYAL_BACON_FANTA_L_ZERO_M": {
+      "name": "Menu McRoyal Bacon + Fanta Zero Média",
+      "price": 6.65,
+      "expectedPrep": 6,
+      "recipe": { "MROYAL_BACON": 1, "FANTA_L_ZERO_M": 1 }
+    },
+    "MENU_MROYAL_BACON_AGUA": {
+      "name": "Menu McRoyal Bacon + Água",
+      "price": 6.18,
+      "expectedPrep": 6,
+      "recipe": { "MROYAL_BACON": 1, "AGUA": 1 }
+    },
+    "MENU_MROYAL_BACON_SUMO_LARANJA": {
+      "name": "Menu McRoyal Bacon + Sumo de Laranja",
+      "price": 7.31,
+      "expectedPrep": 6,
+      "recipe": { "MROYAL_BACON": 1, "SUMO_LARANJA": 1 }
+    },
+    "MENU_BIG_TASTY_SINGLE_COLA_M": {
+      "name": "Menu Big Tasty Single + Cola Média",
+      "price": 7.6,
+      "expectedPrep": 7,
+      "recipe": { "BIG_TASTY_SINGLE": 1, "COLA_M": 1 }
+    },
+    "MENU_BIG_TASTY_SINGLE_COLA_Z_ZERO_M": {
+      "name": "Menu Big Tasty Single + Coca-Cola Zero Média",
+      "price": 7.6,
+      "expectedPrep": 7,
+      "recipe": { "BIG_TASTY_SINGLE": 1, "COLA_Z_ZERO_M": 1 }
+    },
+    "MENU_BIG_TASTY_SINGLE_FANTA_L_ZERO_M": {
+      "name": "Menu Big Tasty Single + Fanta Zero Média",
+      "price": 7.6,
+      "expectedPrep": 7,
+      "recipe": { "BIG_TASTY_SINGLE": 1, "FANTA_L_ZERO_M": 1 }
+    },
+    "MENU_BIG_TASTY_SINGLE_AGUA": {
+      "name": "Menu Big Tasty Single + Água",
+      "price": 7.13,
+      "expectedPrep": 7,
+      "recipe": { "BIG_TASTY_SINGLE": 1, "AGUA": 1 }
+    },
+    "MENU_BIG_TASTY_SINGLE_SUMO_LARANJA": {
+      "name": "Menu Big Tasty Single + Sumo de Laranja",
+      "price": 8.26,
+      "expectedPrep": 7,
+      "recipe": { "BIG_TASTY_SINGLE": 1, "SUMO_LARANJA": 1 }
+    },
+
+    "MENU_MCVEGGIE_COLA_M": {
+      "name": "Menu McVeggie + Cola Média",
+      "price": 5.7,
+      "expectedPrep": 5,
+      "recipe": { "MCVEGGIE": 1, "COLA_M": 1 }
+    },
+    "MENU_MCVEGGIE_COLA_Z_ZERO_M": {
+      "name": "Menu McVeggie + Coca-Cola Zero Média",
+      "price": 5.7,
+      "expectedPrep": 5,
+      "recipe": { "MCVEGGIE": 1, "COLA_Z_ZERO_M": 1 }
+    },
+    "MENU_MCVEGGIE_FANTA_L_ZERO_M": {
+      "name": "Menu McVeggie + Fanta Zero Média",
+      "price": 5.7,
+      "expectedPrep": 5,
+      "recipe": { "MCVEGGIE": 1, "FANTA_L_ZERO_M": 1 }
+    },
+    "MENU_MCVEGGIE_AGUA": {
+      "name": "Menu McVeggie + Água",
+      "price": 5.23,
+      "expectedPrep": 5,
+      "recipe": { "MCVEGGIE": 1, "AGUA": 1 }
+    },
+    "MENU_MCVEGGIE_SUMO_LARANJA": {
+      "name": "Menu McVeggie + Sumo de Laranja",
+      "price": 6.36,
+      "expectedPrep": 5,
+      "recipe": { "MCVEGGIE": 1, "SUMO_LARANJA": 1 }
+    }
+  }
+}

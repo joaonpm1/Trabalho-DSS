@@ -1,0 +1,15 @@
+mvn clean package -> limpar target e compilar
+
+mvn clean -> limpar target
+
+java -jar target/cadeia-restaurante-1.0-SNAPSHOT-jar-with-dependencies.jar -> correr executavel
+
+
+
+Rodar script python:
+
+source venv/bin/activate
+
+Python3 povoar.py
+
+deactivate
